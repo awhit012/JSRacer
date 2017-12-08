@@ -15,11 +15,11 @@ Racer.prototype.keyListener = function(){
 
 Racer.prototype.whichPlayer = function(event){
 
-  if (event.keyCode === 113 || event.keyCode === 81) {
+  if (event.keyCode === 39 || event.keyCode === 81) {
     var player = document.getElementById("player-1");
     game.movePlayer(player);
   }
-  else if (event.keyCode === 112 || event.keyCode === 80) {
+  else if (event.keyCode === 68 || event.keyCode === 80) {
     var player = document.getElementById("player-2");
     game.movePlayer(player);
   }
