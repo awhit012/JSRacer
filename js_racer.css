@@ -13,6 +13,14 @@ td {
   margin: 1em;
 }
 
+#score {
+  color: magenta;
+}
+
+#players-form {
+  color: white;
+}
+
 #player-1 {
   background-color: blue;
 }
@@ -21,6 +29,9 @@ td {
   background-color: red;
 }
 
+#welcome {
+  color: magenta;
+}
 .finish {
   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAJUlEQVQYV2NkYGD4z4AJGNGFQAJDQSEWv2C6G8N3UF0YHhxAhQBLjgoGdiBmhAAAAABJRU5ErkJggg==) repeat;
   background-color: white;
